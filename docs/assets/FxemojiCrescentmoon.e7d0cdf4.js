@@ -1,1 +1,1 @@
-const e="/assets/FxemojiCrescentmoon.d61121cb.svg";export{e as default};
+const e=""+new URL("FxemojiCrescentmoon.d61121cb.svg",import.meta.url).href;export{e as default};

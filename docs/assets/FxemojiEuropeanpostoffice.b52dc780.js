@@ -1,1 +1,1 @@
-const e="/assets/FxemojiEuropeanpostoffice.0ecd376e.svg";export{e as default};
+const e=""+new URL("FxemojiEuropeanpostoffice.0ecd376e.svg",import.meta.url).href;export{e as default};

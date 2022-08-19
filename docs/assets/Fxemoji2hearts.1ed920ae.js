@@ -1,1 +1,1 @@
-const e="/assets/Fxemoji2hearts.77d3c35e.svg";export{e as default};
+const e=""+new URL("Fxemoji2hearts.77d3c35e.svg",import.meta.url).href;export{e as default};

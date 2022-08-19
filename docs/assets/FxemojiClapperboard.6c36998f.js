@@ -1,1 +1,1 @@
-const a="/assets/FxemojiClapperboard.fea395d1.svg";export{a as default};
+const e=""+new URL("FxemojiClapperboard.fea395d1.svg",import.meta.url).href;export{e as default};

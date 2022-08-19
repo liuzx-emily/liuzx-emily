@@ -1,1 +1,1 @@
-const s="/assets/FxemojiRussianflag.eb0df71e.svg";export{s as default};
+const e=""+new URL("FxemojiRussianflag.eb0df71e.svg",import.meta.url).href;export{e as default};

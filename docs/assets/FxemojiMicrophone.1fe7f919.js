@@ -1,1 +1,1 @@
-const o="/assets/FxemojiMicrophone.0f77ba24.svg";export{o as default};
+const e=""+new URL("FxemojiMicrophone.0f77ba24.svg",import.meta.url).href;export{e as default};

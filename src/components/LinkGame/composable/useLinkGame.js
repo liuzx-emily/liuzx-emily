@@ -105,15 +105,10 @@ export function useLinkGame() {
     while (cellsToPlace.length > 0) {
       const [cell1] = cellsToPlace.splice(0, 1);
       const randomIndex = p5.prototype.random(0, cellsToPlace.length);
-
+      const [cell2] = cellsToPlace.splice(randomIndex, 1);
       const image = p5.prototype.random(imageNames);
       cell1.imgId = image;
-      // const [cell1] = cellsToPlace.splice(0, 1);
-      // const randomIndex = p5.prototype.random(0, cellsToPlace.length);
-      // const [cell2] = cellsToPlace.splice(randomIndex, 1);
-      // const image = p5.prototype.random(imageNames);
-      // cell1.imgId = image;
-      // cell2.imgId = image;
+      cell2.imgId = image;
     }
   }
 

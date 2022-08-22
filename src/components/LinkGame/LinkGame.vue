@@ -116,11 +116,11 @@ new p5(function (p) {
     }
     const connectingLine = checkIsConnectable(activeCell, targetCell);
     if (connectingLine) {
-      addTempDisplayItem({ type: "connectingLine", value: connectingLine, time: 200 });
+      addTempDisplayItem({ type: "connectingLine", value: connectingLine, time: 150 });
       addTempDisplayItem({
         type: "eliminatedCells",
         value: [cloneDeep(activeCell), cloneDeep(targetCell)],
-        time: 200,
+        time: 150,
       });
       activeCell.imgId = undefined;
       activeCell.active = false;
